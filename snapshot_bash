@@ -1,0 +1,2 @@
+#!/bin/bash
+Rscript /home/ebjohnson5/Documents/Github/puerto_rico/R/git_snapshots.R

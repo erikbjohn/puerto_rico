@@ -1,5 +1,5 @@
-funSnapshots <- function(){
-  source('R/git_panoids.R')
+#funSnapshots <- function(){
+  source('~/Documents/Github/puerto_rico/R/git_panoids.R')
   load('~/Dropbox/pkg.data/api.keys/raw/l.pkg.rdata')
   api_key <- l.pkg$google
   dt_panoids_clean_path <-'~/Dropbox/pkg.data/puerto_rico/Clean/dt_panoids.rds'
@@ -45,4 +45,4 @@ funSnapshots <- function(){
     }
     cat(n_date_query, sep='\n')
   }
-}
+#}
